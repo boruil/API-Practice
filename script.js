@@ -5,3 +5,8 @@ xhr.open("GET", "http://www.boruili.com/", false);
 xhr.send();
 console.log(xhr.status);
 console.log(xhr.statusText);
+
+function showResponse(response) {
+    var responseString = JSON.stringify(response, '', 2);
+    document.getElementById('response').innerHTML += responseString;
+}
