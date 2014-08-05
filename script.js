@@ -14,3 +14,5 @@ function showResponse(response) {
 function onClientLoad() {
     gapi.client.load('youtube', 'v3', onYouTubeApiLoad);
 }
+
+// add a api key
