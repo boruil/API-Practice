@@ -1,3 +1,5 @@
+var apiKey = "FtHwuH8w1RDjQpOr0y0gF3AWm8sRsRzncK3hHh9";
+
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://www.boruili.com/", false);
 xhr.send();
